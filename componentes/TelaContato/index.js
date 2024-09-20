@@ -1,36 +1,36 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, estilosheet } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import styles from './estilo';
+import estilos from './estilo';
 
 export default function TelaContato() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.header}>Entre em contato conosco para comprar nossos produtos</Text>
+    <View style={estilos.container}>
+      <Text style={estilos.header}>Entre em contato conosco para comprar nossos produtos</Text>
 
-      <View style={styles.card}>
+      <View style={estilos.card}>
         <Icon name="phone" size={40} color="#800000" />
-        <Text style={styles.label}>Telefone:</Text>
-        <Text style={styles.info}>+55 21 030000000</Text>
+        <Text style={estilos.label}>Telefone:</Text>
+        <Text style={estilos.info}>+55 21 030000000</Text>
       </View>
 
-      <View style={styles.card}>
+      <View style={estilos.card}>
         <Icon name="map-marker" size={40} color="#800000" />
-        <Text style={styles.label}>Endereço:</Text>
-        <Text style={styles.info}>Av. 123, 222 - Rio de Janeiro, RJ</Text>
+        <Text style={estilos.label}>Endereço:</Text>
+        <Text style={estilos.info}>Av. 123, 222 - Rio de Janeiro, RJ</Text>
       </View>
 
-      <View style={styles.card}>
+      <View style={estilos.card}>
         <Icon name="envelope" size={40} color="#800000" />
-        <Text style={styles.label}>Email:</Text>
-        <Text style={styles.info}>preferida@adega.com.br</Text>
+        <Text style={estilos.label}>Email:</Text>
+        <Text style={estilos.info}>preferida@adega.com.br</Text>
       </View>
 
-      <View style={styles.card}>
+      <View style={estilos.card}>
         <Icon name="instagram" size={40} color="#800000" />
-        <Text style={styles.label}>Instagram:</Text>
-        <Text style={styles.info}>@adegapreferida</Text>
+        <Text style={estilos.label}>Instagram:</Text>
+        <Text style={estilos.info}>@adegapreferida</Text>
       </View>
     </View>
   );
