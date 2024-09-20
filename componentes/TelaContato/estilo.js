@@ -1,6 +1,6 @@
-import { estilosheet } from "react-native";
+import { StyleSheet } from "react-native";
 
-const estilos = estilosheet.create({
+const estilos = StyleSheet.create({
     container: {
       flex: 1,
       backgroundColor: '#fff',
